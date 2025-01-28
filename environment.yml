@@ -1,15 +1,16 @@
 name: drug_pipeline
 channels:
   - conda-forge
-  - defaults
   - pytorch
+  - defaults
 dependencies:
   - python=3.9
   - rdkit
-  - scikit-learn
-  - matplotlib
-  - pandas
-  - numpy
   - pytorch
-  - torchvision
-  - torchaudio
+  - cpuonly  
+  - scikit-learn
+  - pandas
+  - matplotlib
+  - jupyter
+  - numpy
+  - pip
